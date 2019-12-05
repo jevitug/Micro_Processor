@@ -1,0 +1,36 @@
+Thu Nov 07 16:11:36 PST 2019
+Trace back: too many nested evaluations (infinite loop?)
+    while executing
+"info exists windowObjCache($w)"
+    (object "::.windowmgr" method "::mtiwidgets::WindowMgr::FindWindowObj" body line 4)
+    invoked from within
+"$::vsimPriv(windowmgr) FindWindowObj $current_focus"
+    (procedure "Binding::FocusIsDialog" line 3)
+    invoked from within
+"Binding::FocusIsDialog"
+    (procedure "Binding::ServiceBinding" line 34)
+    invoked from within
+"Binding::ServiceBinding .main_pane.structure.interior.cs.body.struct.lwchildsite.clipper.canvas.sfchildsite.list <Key-F> 70 117 155 120 334 F"
+    (command bound to event)
+  <2:C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/tk8.5/bgerror.tcl:92: ::tkerror {too many nested evaluations (infinite loop?)}
+  <1:eval:1: ::tk::dialog::error::bgerror {too many nested evaluations (infinite loop?)}
+Thu Nov 07 16:12:06 PST 2019
+Trace back: too many nested evaluations (infinite loop?)
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::index" body line 5)
+    invoked from within
+"index $index"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::_evalCmd" body line 6)
+    invoked from within
+"_evalCmd $itk_option(-selectcommand) $node "
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::_select" body line 7)
+    invoked from within
+"_select $msg"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::_keyboardSearch" body line 8)
+    invoked from within
+"::.main_pane.structure.interior.cs.body.struct _keyboardSearch F"
+    (in namespace inscope "::vsimwidgets::Hierarchy" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _keyboardSearch F}"
+    (command bound to event)
+  <2:C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/tk8.5/bgerror.tcl:92: ::tkerror {too many nested evaluations (infinite loop?)}
+  <1:eval:1: ::tk::dialog::error::bgerror {too many nested evaluations (infinite loop?)}

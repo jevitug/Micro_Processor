@@ -1,0 +1,594 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do TopLevel_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/orrne/Desktop/proc_1 {C:/Users/orrne/Desktop/proc_1/data_mem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:22:57 on Dec 04,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/orrne/Desktop/proc_1" C:/Users/orrne/Desktop/proc_1/data_mem.sv 
+# -- Compiling module data_mem
+# 
+# Top level modules:
+# 	data_mem
+# End time: 21:22:57 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/orrne/Desktop/proc_1 {C:/Users/orrne/Desktop/proc_1/definitions.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:00 on Dec 04,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/orrne/Desktop/proc_1" C:/Users/orrne/Desktop/proc_1/definitions.sv 
+# -- Compiling package definitions
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:23:00 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/orrne/Desktop/proc_1 {C:/Users/orrne/Desktop/proc_1/LUT.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:00 on Dec 04,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/orrne/Desktop/proc_1" C:/Users/orrne/Desktop/proc_1/LUT.sv 
+# -- Compiling module LUT
+# 
+# Top level modules:
+# 	LUT
+# End time: 21:23:01 on Dec 04,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/orrne/Desktop/proc_1 {C:/Users/orrne/Desktop/proc_1/PC.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:01 on Dec 04,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/orrne/Desktop/proc_1" C:/Users/orrne/Desktop/proc_1/PC.sv 
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	PC
+# End time: 21:23:01 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/orrne/Desktop/proc_1 {C:/Users/orrne/Desktop/proc_1/reg_file.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:01 on Dec 04,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/orrne/Desktop/proc_1" C:/Users/orrne/Desktop/proc_1/reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 21:23:01 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/orrne/Desktop/proc_1 {C:/Users/orrne/Desktop/proc_1/TopLevel.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:01 on Dec 04,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/orrne/Desktop/proc_1" C:/Users/orrne/Desktop/proc_1/TopLevel.sv 
+# -- Compiling module TopLevel
+# 
+# Top level modules:
+# 	TopLevel
+# End time: 21:23:01 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/orrne/Desktop/proc_1 {C:/Users/orrne/Desktop/proc_1/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:01 on Dec 04,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/orrne/Desktop/proc_1" C:/Users/orrne/Desktop/proc_1/ALU.sv 
+# -- Compiling package ALU_sv_unit
+# -- Importing package definitions
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 21:23:02 on Dec 04,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/orrne/Desktop/proc_1 {C:/Users/orrne/Desktop/proc_1/Ctrl.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:02 on Dec 04,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/orrne/Desktop/proc_1" C:/Users/orrne/Desktop/proc_1/Ctrl.sv 
+# -- Compiling package Ctrl_sv_unit
+# -- Importing package definitions
+# -- Compiling module Ctrl
+# 
+# Top level modules:
+# 	Ctrl
+# End time: 21:23:02 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/orrne/Desktop/proc_1 {C:/Users/orrne/Desktop/proc_1/InstROM.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:02 on Dec 04,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/orrne/Desktop/proc_1" C:/Users/orrne/Desktop/proc_1/InstROM.sv 
+# -- Compiling module InstROM
+# 
+# Top level modules:
+# 	InstROM
+# End time: 21:23:02 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/ALU.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:21 on Dec 04,2019
+# vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/ALU.sv 
+# ** Warning: C:/Users/orrne/Desktop/proc_1/ALU.sv(8): (vlog-13233) Design unit "ALU_sv_unit" already exists and will be overwritten. Design unit compiled with different set of options.
+# -- Compiling package ALU_sv_unit
+# -- Importing package definitions
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 21:23:21 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/Ctrl.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:21 on Dec 04,2019
+# vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/Ctrl.sv 
+# ** Warning: C:/Users/orrne/Desktop/proc_1/Ctrl.sv(2): (vlog-13233) Design unit "Ctrl_sv_unit" already exists and will be overwritten. Design unit compiled with different set of options.
+# -- Compiling package Ctrl_sv_unit
+# -- Importing package definitions
+# -- Compiling module Ctrl
+# 
+# Top level modules:
+# 	Ctrl
+# End time: 21:23:21 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/data_mem.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:21 on Dec 04,2019
+# vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/data_mem.sv 
+# -- Compiling module data_mem
+# 
+# Top level modules:
+# 	data_mem
+# End time: 21:23:21 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/definitions.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:22 on Dec 04,2019
+# vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/definitions.sv 
+# -- Compiling package definitions
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:23:22 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/InstROM.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:22 on Dec 04,2019
+# vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/InstROM.sv 
+# -- Compiling module InstROM
+# 
+# Top level modules:
+# 	InstROM
+# End time: 21:23:22 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/LUT.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:22 on Dec 04,2019
+# vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/LUT.sv 
+# -- Compiling module LUT
+# 
+# Top level modules:
+# 	LUT
+# End time: 21:23:22 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/PC.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:22 on Dec 04,2019
+# vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/PC.sv 
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	PC
+# End time: 21:23:22 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/prog123_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:22 on Dec 04,2019
+# vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/prog123_tb.sv 
+# -- Compiling module prog123_tb
+# 
+# Top level modules:
+# 	prog123_tb
+# End time: 21:23:22 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/reg_file.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:22 on Dec 04,2019
+# vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 21:23:23 on Dec 04,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/TopLevel.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:23 on Dec 04,2019
+# vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/TopLevel.sv 
+# -- Compiling module TopLevel
+# 
+# Top level modules:
+# 	TopLevel
+# End time: 21:23:23 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/TopLevel_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:23 on Dec 04,2019
+# vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/TopLevel_tb.sv 
+# -- Compiling module TopLevel_tb
+# 
+# Top level modules:
+# 	TopLevel_tb
+# End time: 21:23:23 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.prog123_tb
+# vsim work.prog123_tb 
+# Start time: 21:23:31 on Dec 04,2019
+# Loading sv_std.std
+# Loading work.prog123_tb
+# Loading work.TopLevel
+# Loading work.LUT
+# Loading work.PC
+# ** Error: (vsim-13) Recompile work.Ctrl_sv_unit because work.definitions has changed.
+# ** Error (suppressible): (vsim-12) Recompile work.Ctrl after work.Ctrl_sv_unit is recompiled.
+# ** Error: (vsim-13) Recompile work.Ctrl because work.definitions has changed.
+# Error loading design
+# End time: 21:23:31 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/ALU.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:42 on Dec 04,2019
+# vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/ALU.sv 
+# -- Compiling package ALU_sv_unit
+# -- Importing package definitions
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 21:23:42 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/Ctrl.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:42 on Dec 04,2019
+# vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/Ctrl.sv 
+# -- Compiling package Ctrl_sv_unit
+# -- Importing package definitions
+# -- Compiling module Ctrl
+# 
+# Top level modules:
+# 	Ctrl
+# End time: 21:23:42 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/data_mem.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:42 on Dec 04,2019
+# vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/data_mem.sv 
+# -- Compiling module data_mem
+# 
+# Top level modules:
+# 	data_mem
+# End time: 21:23:42 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/definitions.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:42 on Dec 04,2019
+# vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/definitions.sv 
+# -- Compiling package definitions
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:23:42 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/InstROM.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:42 on Dec 04,2019
+# vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/InstROM.sv 
+# -- Compiling module InstROM
+# 
+# Top level modules:
+# 	InstROM
+# End time: 21:23:42 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/LUT.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:43 on Dec 04,2019
+# vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/LUT.sv 
+# -- Compiling module LUT
+# 
+# Top level modules:
+# 	LUT
+# End time: 21:23:43 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/PC.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:43 on Dec 04,2019
+# vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/PC.sv 
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	PC
+# End time: 21:23:43 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/prog123_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:43 on Dec 04,2019
+# vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/prog123_tb.sv 
+# -- Compiling module prog123_tb
+# 
+# Top level modules:
+# 	prog123_tb
+# End time: 21:23:43 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/reg_file.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:43 on Dec 04,2019
+# vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 21:23:43 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/TopLevel.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:43 on Dec 04,2019
+# vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/TopLevel.sv 
+# -- Compiling module TopLevel
+# 
+# Top level modules:
+# 	TopLevel
+# End time: 21:23:43 on Dec 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/TopLevel_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:43 on Dec 04,2019
+# vlog -reportprogress 300 -work work C:/Users/orrne/Desktop/proc_1/TopLevel_tb.sv 
+# -- Compiling module TopLevel_tb
+# 
+# Top level modules:
+# 	TopLevel_tb
+# End time: 21:23:44 on Dec 04,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.prog123_tb
+# vsim work.prog123_tb 
+# Start time: 21:23:55 on Dec 04,2019
+# Loading sv_std.std
+# Loading work.prog123_tb
+# Loading work.TopLevel
+# Loading work.LUT
+# Loading work.PC
+# Loading work.definitions
+# Loading work.Ctrl_sv_unit
+# Loading work.Ctrl
+# Loading work.InstROM
+# Loading work.reg_file
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.data_mem
+run -all
+# Memory read M[  1] =   5
+# Memory read M[  0] =  36
+# Memory write M[ 31] = 165
+# Memory write M[ 30] =  85
+# Memory read M[  3] =   6
+# Memory read M[  2] = 129
+# Memory write M[ 33] = 209
+# Memory write M[ 32] =  29
+# Memory read M[  5] =   6
+# Memory read M[  4] =   9
+# Memory write M[ 35] = 192
+# Memory write M[ 34] = 154
+# Memory read M[  7] =   6
+# Memory read M[  6] =  99
+# Memory write M[ 37] = 204
+# Memory write M[ 36] =  60
+# Memory read M[  9] =   3
+# Memory read M[  8] =  13
+# Memory write M[ 39] =  96
+# Memory write M[ 38] = 202
+# Memory read M[ 11] =   1
+# Memory read M[ 10] = 141
+# Memory write M[ 41] =  48
+# Memory write M[ 40] = 207
+# Memory read M[ 13] =   4
+# Memory read M[ 12] = 101
+# Memory write M[ 43] = 141
+# Memory write M[ 42] =  78
+# Memory read M[ 15] =   2
+# Memory read M[ 14] =  18
+# Memory write M[ 45] =  66
+# Memory write M[ 44] =  36
+# Memory read M[ 17] =   3
+# Memory read M[ 16] =   1
+# Memory write M[ 47] =  96
+# Memory write M[ 46] =   9
+# Memory read M[ 19] =   5
+# Memory read M[ 18] =  13
+# Memory write M[ 49] = 160
+# Memory write M[ 48] = 201
+# Memory read M[ 21] =   1
+# Memory read M[ 20] = 118
+# Memory write M[ 51] =  46
+# Memory write M[ 50] = 116
+# Memory read M[ 23] =   5
+# Memory read M[ 22] =  61
+# Memory write M[ 53] = 166
+# Memory write M[ 52] = 207
+# Memory read M[ 25] =   7
+# Memory read M[ 24] = 237
+# Memory write M[ 55] = 252
+# Memory write M[ 54] = 207
+# Memory read M[ 27] =   7
+# Memory read M[ 26] = 140
+# Memory write M[ 57] = 240
+# Memory write M[ 56] = 195
+# Memory read M[ 29] =   1
+# Memory read M[ 28] = 249
+# Memory write M[ 59] =  63
+# Memory write M[ 58] = 154
+# start program 1
+#  
+# 1010010101010101
+# 1010010101010101
+#  
+# 1101000100011101
+# 1101000100011101
+#  
+# 1100000010011010
+# 1100000010011010
+#  
+# 1100110000111100
+# 1100110000111100
+#  
+# 0110000011001010
+# 0110000011001010
+#  
+# 0011000011001111
+# 0011000011001111
+#  
+# 1000110101001110
+# 1000110101001110
+#  
+# 0100001000100100
+# 0100001000100100
+#  
+# 0110000000001001
+# 0110000000001001
+#  
+# 1010000011001001
+# 1010000011001001
+#  
+# 0010111001110100
+# 0010111001110100
+#  
+# 1010011011001111
+# 1010011011001111
+#  
+# 1111110011001111
+# 1111110011001111
+#  
+# 1111000011000011
+# 1111000011000011
+#  
+# 0011111110011010
+# 0011111110011010
+#  
+# Memory read M[ 65] = 153
+# Memory read M[ 64] =  70
+# Memory write M[ 95] =   4
+# Memory write M[ 94] = 198
+# Memory read M[ 67] =  85
+# Memory read M[ 66] = 133
+# Memory write M[ 97] =   2
+# Memory write M[ 96] = 170
+# Memory read M[ 69] =  78
+# Memory read M[ 68] = 121
+# Memory write M[ 99] =   2
+# Memory write M[ 98] = 119
+# Memory read M[ 71] = 113
+# Memory read M[ 70] = 236
+# Memory write M[101] =   3
+# Memory write M[100] = 143
+# Memory read M[ 73] = 217
+# Memory read M[ 72] = 228
+# Memory write M[103] =   6
+# Memory write M[102] = 206
+# Memory read M[ 75] = 200
+# Memory read M[ 74] =  78
+# Memory write M[105] =   6
+# Memory write M[104] = 197
+# Memory read M[ 77] =  55
+# Memory read M[ 76] = 219
+# Memory write M[107] =   0
+# Memory write M[106] = 189
+# Memory read M[ 79] = 204
+# Memory read M[ 78] =  82
+# Memory write M[109] =   6
+# Memory write M[108] = 101
+# Memory read M[ 81] = 225
+# Memory read M[ 80] = 181
+# Memory write M[111] =   7
+# Memory write M[110] =  10
+# Memory read M[ 83] =  32
+# Memory read M[ 82] =  23
+# Memory write M[113] =   1
+# Memory write M[112] =  32
+# Memory read M[ 85] = 147
+# Memory read M[ 84] = 137
+# Memory write M[115] =   4
+# Memory write M[114] = 157
+# Memory read M[ 87] =  35
+# Memory read M[ 86] =  63
+# Memory write M[117] =   0
+# Memory write M[116] =  19
+# Memory read M[ 89] = 194
+# Memory read M[ 88] =  58
+# Memory write M[119] =   6
+# Memory write M[118] =  83
+# Memory read M[ 91] =  90
+# Memory read M[ 90] =  94
+# Memory write M[121] =   2
+# Memory write M[120] = 213
+# Memory read M[ 93] = 244
+# Memory read M[ 92] = 231
+# Memory write M[123] =   6
+# Memory write M[122] = 174
+#  
+# start program 2
+#  
+# 0000010011000110
+# 0000010011000110
+#  
+# 0000001010101010
+# 0000001010101010
+#  
+# 0000001001110111
+# 0000001001110111
+#  
+# 0000001110001111
+# 0000001110001111
+#  
+# 0000011011001110
+# 0000011011001110
+#  
+# 0000011011000101
+# 0000011011000101
+#  
+# 0000000010111101
+# 0000000010111101
+#  
+# 0000011001100101
+# 0000011001100101
+#  
+# 0000011100001010
+# 0000011100001010
+#  
+# 0000000100100000
+# 0000000100100000
+#  
+# 0000010010011101
+# 0000010010011101
+#  
+# 0000000000010011
+# 0000000000010011
+#  
+# 0000011001010011
+# 0000011001010011
+#  
+# 0000001011010101
+# 0000001011010101
+#  
+# 0000011010101110
+# 0000011010101110
+#  
+#  
+# start program 3
+#  
+# number of patterns w/o byte crossing    = 128   x
+# number of bytes w/ at least one pattern =  32   x
+# number of patterns w/ byte crossing     = 252   x
+# ** Note: $stop    : C:/Users/orrne/Desktop/proc_1/prog123_tb.sv(136)
+#    Time: 100975 ns  Iteration: 0  Instance: /prog123_tb
+# Break in Module prog123_tb at C:/Users/orrne/Desktop/proc_1/prog123_tb.sv line 136
+# End time: 21:24:34 on Dec 04,2019, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 0
