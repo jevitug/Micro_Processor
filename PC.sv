@@ -24,7 +24,7 @@ module PC(
 			halt <= 1;		 // just a randomly chosen numbe
 			PC <= PC + 1;
 		end
-		else if (PC > 2000)
+		else if (PC > 850)
 			halt <= 1;
 		else if(branch_en)
 			PC <= target;

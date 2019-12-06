@@ -3,7 +3,7 @@ start => PC:PC1.init
 CLK => PC:PC1.CLK
 CLK => reg_file:reg_file1.CLK
 CLK => data_mem:data_mem1.CLK
-halt << PC:PC1.halt
+halt <= PC:PC1.halt
 
 
 |TopLevel|LUT:LUT1

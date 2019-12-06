@@ -1,5 +1,5 @@
 Analysis & Synthesis report for TopLevel
-Thu Dec 05 19:36:56 2019
+Thu Dec 05 21:36:59 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -56,7 +56,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Dec 05 19:36:56 2019       ;
+; Analysis & Synthesis Status     ; Successful - Thu Dec 05 21:36:58 2019       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; TopLevel                                    ;
 ; Top-level Entity Name           ; TopLevel                                    ;
@@ -196,7 +196,7 @@ refer to the applicable agreement for further details.
 ; LUT.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/orrne/Desktop/proc_1/LUT.sv                                         ;         ;
 ; PC.sv                            ; yes             ; User SystemVerilog HDL File  ; C:/Users/orrne/Desktop/proc_1/PC.sv                                          ;         ;
 ; reg_file.sv                      ; yes             ; User SystemVerilog HDL File  ; C:/Users/orrne/Desktop/proc_1/reg_file.sv                                    ;         ;
-; programs/program1_2.c            ; yes             ; Auto-Found File              ; C:/Users/orrne/Desktop/proc_1/programs/program1_2.c                          ;         ;
+; programs/program1_2_3.c          ; yes             ; Auto-Found File              ; C:/Users/orrne/Desktop/proc_1/programs/program1_2_3.c                        ;         ;
 ; altsyncram.tdf                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf        ;         ;
 ; stratix_ram_block.inc            ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc ;         ;
 ; lpm_mux.inc                      ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.inc           ;         ;
@@ -222,14 +222,14 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 1732      ;
+; Estimate of Logic utilization (ALMs needed) ; 1755      ;
 ;                                             ;           ;
-; Combinational ALUT usage for logic          ; 1597      ;
-;     -- 7 input functions                    ; 10        ;
-;     -- 6 input functions                    ; 937       ;
-;     -- 5 input functions                    ; 176       ;
-;     -- 4 input functions                    ; 356       ;
-;     -- <=3 input functions                  ; 118       ;
+; Combinational ALUT usage for logic          ; 1634      ;
+;     -- 7 input functions                    ; 14        ;
+;     -- 6 input functions                    ; 957       ;
+;     -- 5 input functions                    ; 197       ;
+;     -- 4 input functions                    ; 349       ;
+;     -- <=3 input functions                  ; 117       ;
 ;                                             ;           ;
 ; Dedicated logic registers                   ; 2206      ;
 ;                                             ;           ;
@@ -241,8 +241,8 @@ refer to the applicable agreement for further details.
 ;                                             ;           ;
 ; Maximum fan-out node                        ; CLK~input ;
 ; Maximum fan-out                             ; 2214      ;
-; Total fan-out                               ; 15037     ;
-; Average fan-out                             ; 3.94      ;
+; Total fan-out                               ; 15260     ;
+; Average fan-out                             ; 3.96      ;
 +---------------------------------------------+-----------+
 
 
@@ -251,8 +251,8 @@ refer to the applicable agreement for further details.
 +-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
 ; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                ; Entity Name         ; Library Name ;
 +-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
-; |TopLevel                                 ; 1597 (66)           ; 2206 (0)                  ; 128               ; 1          ; 3    ; 0            ; |TopLevel                                                                                                          ; TopLevel            ; work         ;
-;    |ALU:ALU1|                             ; 273 (114)           ; 0 (0)                     ; 0                 ; 1          ; 0    ; 0            ; |TopLevel|ALU:ALU1                                                                                                 ; ALU                 ; work         ;
+; |TopLevel                                 ; 1634 (66)           ; 2206 (0)                  ; 128               ; 1          ; 3    ; 0            ; |TopLevel                                                                                                          ; TopLevel            ; work         ;
+;    |ALU:ALU1|                             ; 277 (118)           ; 0 (0)                     ; 0                 ; 1          ; 0    ; 0            ; |TopLevel|ALU:ALU1                                                                                                 ; ALU                 ; work         ;
 ;       |lpm_divide:Div0|                   ; 82 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|ALU:ALU1|lpm_divide:Div0                                                                                 ; lpm_divide          ; work         ;
 ;          |lpm_divide_9am:auto_generated|  ; 82 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|ALU:ALU1|lpm_divide:Div0|lpm_divide_9am:auto_generated                                                   ; lpm_divide_9am      ; work         ;
 ;             |sign_div_unsign_fkh:divider| ; 82 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|ALU:ALU1|lpm_divide:Div0|lpm_divide_9am:auto_generated|sign_div_unsign_fkh:divider                       ; sign_div_unsign_fkh ; work         ;
@@ -262,11 +262,11 @@ refer to the applicable agreement for further details.
 ;             |sign_div_unsign_fkh:divider| ; 77 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|ALU:ALU1|lpm_divide:Mod0|lpm_divide_c2m:auto_generated|sign_div_unsign_fkh:divider                       ; sign_div_unsign_fkh ; work         ;
 ;                |alt_u_div_4te:divider|    ; 77 (77)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|ALU:ALU1|lpm_divide:Mod0|lpm_divide_c2m:auto_generated|sign_div_unsign_fkh:divider|alt_u_div_4te:divider ; alt_u_div_4te       ; work         ;
 ;    |Ctrl:Ctrl1|                           ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|Ctrl:Ctrl1                                                                                               ; Ctrl                ; work         ;
-;    |InstROM:instr_ROM1|                   ; 132 (132)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|InstROM:instr_ROM1                                                                                       ; InstROM             ; work         ;
-;    |LUT:LUT1|                             ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|LUT:LUT1                                                                                                 ; LUT                 ; work         ;
-;    |PC:PC1|                               ; 38 (38)             ; 13 (13)                   ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|PC:PC1                                                                                                   ; PC                  ; work         ;
+;    |InstROM:instr_ROM1|                   ; 172 (172)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|InstROM:instr_ROM1                                                                                       ; InstROM             ; work         ;
+;    |LUT:LUT1|                             ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|LUT:LUT1                                                                                                 ; LUT                 ; work         ;
+;    |PC:PC1|                               ; 44 (44)             ; 13 (13)                   ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|PC:PC1                                                                                                   ; PC                  ; work         ;
 ;    |data_mem:data_mem1|                   ; 968 (968)           ; 2048 (2048)               ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|data_mem:data_mem1                                                                                       ; data_mem            ; work         ;
-;    |reg_file:reg_file1|                   ; 112 (112)           ; 145 (145)                 ; 128               ; 0          ; 0    ; 0            ; |TopLevel|reg_file:reg_file1                                                                                       ; reg_file            ; work         ;
+;    |reg_file:reg_file1|                   ; 104 (104)           ; 145 (145)                 ; 128               ; 0          ; 0    ; 0            ; |TopLevel|reg_file:reg_file1                                                                                       ; reg_file            ; work         ;
 ;       |altsyncram:registers_rtl_0|        ; 0 (0)               ; 0 (0)                     ; 128               ; 0          ; 0    ; 0            ; |TopLevel|reg_file:reg_file1|altsyncram:registers_rtl_0                                                            ; altsyncram          ; work         ;
 ;          |altsyncram_dfo1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 128               ; 0          ; 0    ; 0            ; |TopLevel|reg_file:reg_file1|altsyncram:registers_rtl_0|altsyncram_dfo1:auto_generated                             ; altsyncram_dfo1     ; work         ;
 +-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
@@ -535,19 +535,19 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     ENA               ; 2178                        ;
 ;     ENA SCLR          ; 10                          ;
 ;     plain             ; 18                          ;
-; arriav_lcell_comb     ; 1597                        ;
+; arriav_lcell_comb     ; 1634                        ;
 ;     arith             ; 110                         ;
 ;         0 data inputs ; 24                          ;
 ;         1 data inputs ; 12                          ;
 ;         5 data inputs ; 74                          ;
-;     extend            ; 10                          ;
-;         7 data inputs ; 10                          ;
-;     normal            ; 1467                        ;
-;         2 data inputs ; 25                          ;
+;     extend            ; 14                          ;
+;         7 data inputs ; 14                          ;
+;     normal            ; 1500                        ;
+;         2 data inputs ; 24                          ;
 ;         3 data inputs ; 49                          ;
-;         4 data inputs ; 354                         ;
-;         5 data inputs ; 102                         ;
-;         6 data inputs ; 937                         ;
+;         4 data inputs ; 347                         ;
+;         5 data inputs ; 123                         ;
+;         6 data inputs ; 957                         ;
 ;     shared            ; 10                          ;
 ;         0 data inputs ; 4                           ;
 ;         2 data inputs ; 4                           ;
@@ -556,8 +556,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; boundary_port         ; 3                           ;
 ; stratixv_ram_block    ; 8                           ;
 ;                       ;                             ;
-; Max LUT depth         ; 27.40                       ;
-; Average LUT depth     ; 10.46                       ;
+; Max LUT depth         ; 25.50                       ;
+; Average LUT depth     ; 10.31                       ;
 +-----------------------+-----------------------------+
 
 
@@ -566,7 +566,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:10     ;
+; Top            ; 00:00:17     ;
 +----------------+--------------+
 
 
@@ -576,7 +576,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Dec 05 19:36:34 2019
+    Info: Processing started: Thu Dec 05 21:36:20 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off TopLevel -c TopLevel
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -605,19 +605,29 @@ Info (12021): Found 1 design units, including 1 entities, in source file reg_fil
 Info (12127): Elaborating entity "TopLevel" for the top level hierarchy
 Warning (10230): Verilog HDL assignment warning at TopLevel.sv(61): truncated value with size 32 to match size of target (1) File: C:/Users/orrne/Desktop/proc_1/TopLevel.sv Line: 61
 Info (12128): Elaborating entity "LUT" for hierarchy "LUT:LUT1" File: C:/Users/orrne/Desktop/proc_1/TopLevel.sv Line: 36
-Warning (10036): Verilog HDL or VHDL warning at LUT.sv(9): object "lines_in_p1p2" assigned a value but never read File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 9
 Warning (10230): Verilog HDL assignment warning at LUT.sv(14): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 14
 Warning (10230): Verilog HDL assignment warning at LUT.sv(15): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 15
 Warning (10230): Verilog HDL assignment warning at LUT.sv(16): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 16
 Warning (10230): Verilog HDL assignment warning at LUT.sv(17): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 17
 Warning (10230): Verilog HDL assignment warning at LUT.sv(18): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 18
 Warning (10230): Verilog HDL assignment warning at LUT.sv(19): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 19
+Warning (10230): Verilog HDL assignment warning at LUT.sv(20): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 20
+Warning (10230): Verilog HDL assignment warning at LUT.sv(21): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 21
+Warning (10230): Verilog HDL assignment warning at LUT.sv(22): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 22
+Warning (10230): Verilog HDL assignment warning at LUT.sv(23): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 23
+Warning (10230): Verilog HDL assignment warning at LUT.sv(24): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 24
+Warning (10230): Verilog HDL assignment warning at LUT.sv(25): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 25
+Warning (10230): Verilog HDL assignment warning at LUT.sv(26): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 26
+Warning (10230): Verilog HDL assignment warning at LUT.sv(27): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 27
+Warning (10230): Verilog HDL assignment warning at LUT.sv(28): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 28
+Warning (10230): Verilog HDL assignment warning at LUT.sv(29): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 29
+Warning (10230): Verilog HDL assignment warning at LUT.sv(30): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 30
 Info (12128): Elaborating entity "PC" for hierarchy "PC:PC1" File: C:/Users/orrne/Desktop/proc_1/TopLevel.sv Line: 45
 Warning (10230): Verilog HDL assignment warning at PC.sv(25): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/PC.sv Line: 25
 Warning (10230): Verilog HDL assignment warning at PC.sv(32): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/PC.sv Line: 32
 Info (12128): Elaborating entity "Ctrl" for hierarchy "Ctrl:Ctrl1" File: C:/Users/orrne/Desktop/proc_1/TopLevel.sv Line: 52
 Info (12128): Elaborating entity "InstROM" for hierarchy "InstROM:instr_ROM1" File: C:/Users/orrne/Desktop/proc_1/TopLevel.sv Line: 57
-Warning (10850): Verilog HDL warning at InstROM.sv(42): number of words (622) in memory file does not match the number of elements in the address range [0:4095] File: C:/Users/orrne/Desktop/proc_1/InstROM.sv Line: 42
+Warning (10850): Verilog HDL warning at InstROM.sv(42): number of words (849) in memory file does not match the number of elements in the address range [0:4095] File: C:/Users/orrne/Desktop/proc_1/InstROM.sv Line: 42
 Warning (10030): Net "inst_rom.data_a" at InstROM.sv(38) has no driver or initial value, using a default initial value '0' File: C:/Users/orrne/Desktop/proc_1/InstROM.sv Line: 38
 Warning (10030): Net "inst_rom.waddr_a" at InstROM.sv(38) has no driver or initial value, using a default initial value '0' File: C:/Users/orrne/Desktop/proc_1/InstROM.sv Line: 38
 Warning (10030): Net "inst_rom.we_a" at InstROM.sv(38) has no driver or initial value, using a default initial value '0' File: C:/Users/orrne/Desktop/proc_1/InstROM.sv Line: 38
@@ -700,17 +710,17 @@ Info (286030): Timing-Driven Synthesis is running
 Info (144001): Generated suppressed messages file C:/Users/orrne/Desktop/proc_1/output_files/TopLevel.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 3798 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 3835 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 1 output pins
-    Info (21061): Implemented 3786 logic cells
+    Info (21061): Implemented 3823 logic cells
     Info (21064): Implemented 8 RAM segments
     Info (21062): Implemented 1 DSP elements
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 28 warnings
-    Info: Peak virtual memory: 4879 megabytes
-    Info: Processing ended: Thu Dec 05 19:36:56 2019
-    Info: Elapsed time: 00:00:22
-    Info: Total CPU time (on all processors): 00:00:35
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 38 warnings
+    Info: Peak virtual memory: 4880 megabytes
+    Info: Processing ended: Thu Dec 05 21:36:59 2019
+    Info: Elapsed time: 00:00:39
+    Info: Total CPU time (on all processors): 00:01:02
 
 
 +------------------------------------------+

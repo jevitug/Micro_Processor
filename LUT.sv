@@ -6,7 +6,7 @@ module LUT(
     output logic[11:0] Target
     );
 	 int lines_in_p1 = 150;
-	 int lines_in_p1p2 = 620;
+	 int lines_in_p1p2 = 622+21;
     always_comb
 	
     case(addr)		   //-16'd30;
@@ -17,17 +17,17 @@ module LUT(
         5'b00100:   	Target = 446 +lines_in_p1; 				//L4
         5'b00101:	 	Target = 450 +lines_in_p1;					//L5
         5'b00110:	 	Target = 243 +lines_in_p1;					//L6
-        5'b00111:	 	Target = 0;					//L7
-        5'b01000:   	Target = 0; 				//L8
-        5'b01001:	 	Target = 0;				//L9
-        5'b01010:	 	Target = 0;				//L10
-        5'b01011:	 	Target = 0;				//L11
-        5'b01100:   	Target = 0;					//L12
-        5'b01101:	 	Target = 0;				//L13
-        5'b01110:	 	Target = 0;				//L14
-        5'b01111:	 	Target = 0;				//L15
-		  5'b10000:	 	Target = 0;				//L16
-		  5'b10001:	 	Target = 0;				//L17
+        5'b00111:	 	Target = 42 +lines_in_p1p2;				//L7
+        5'b01000:   	Target = 56 +lines_in_p1p2; 				//L8
+        5'b01001:	 	Target = 70 +lines_in_p1p2;				//L9
+        5'b01010:	 	Target = 82 +lines_in_p1p2;				//L10
+        5'b01011:	 	Target = 98 +lines_in_p1p2;				//L11
+        5'b01100:   	Target = 130 +lines_in_p1p2;				//L12
+        5'b01101:	 	Target = 144 +lines_in_p1p2;				//L13
+        5'b01110:	 	Target = 158 +lines_in_p1p2;				//L14
+        5'b01111:	 	Target = 172 +lines_in_p1p2;				//L15
+		  5'b10000:	 	Target = 188 +lines_in_p1p2;				//L16
+		  5'b10001:	 	Target = 22 +lines_in_p1p2;				//L17
         default: 	Target = 0;							//Default
     endcase
 
