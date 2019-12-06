@@ -8,11 +8,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "CLK",
+					"name" : "start",
 					"strict" : false
 				},
 				{
-					"name" : "start",
+					"name" : "CLK",
 					"strict" : false
 				}
 			]

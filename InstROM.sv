@@ -39,7 +39,7 @@ logic[W-1:0] inst_rom[2**(A)];
 always_comb InstOut = inst_rom[InstAddress];
 
 initial begin		                  // load from external text file
-    $readmemb("C:/Users/orrne/Documents/UCSD/Year\ 4/CSE 141L/program1_2.c",inst_rom);
+    $readmemb("C:/Users/orrne/Desktop/proc_1/programs/program1_2.c",inst_rom);
 end
 
 endmodule

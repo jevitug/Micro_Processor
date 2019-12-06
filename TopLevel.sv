@@ -31,7 +31,7 @@ module TopLevel(		   // you will have the same 3 ports
     
 	 
 	 LUT LUT1(
-		.addr(branch_lookup_val[7:4]),
+		.addr(branch_lookup_val[4:0]),
 		.Target(branch_target)
     );
 	 

@@ -61,7 +61,7 @@ def main():
                     if len(x) == 2:
                         if x[1].isdigit():
                             command = command + get_bin(extract_int(x[1]), 8)
-                        else if x[1][0] == "l":
+                        elif x[1][0] == "l":
                             command = command + get_bin(extract_int(x[1][1:]), 8)
                         else:
                             command = command + get_bin(extract_int(x[1]), 4) + get_bin(0, 4)

@@ -190,11 +190,11 @@
 101000100 //bSR I R4
 000000100 //Load_func 0, R4
 111010110 //setBit I R6
-000100000 //Load_func L2
+000000010 //Load_func L2
 111100000 //setBranch
 000000110 //Load_func 0, R6
 110110000 //BNEQ I
-001000000 //Load_func L4
+000000100 //Load_func L4
 111100000 //setBranch
 000000101 //Load_func 0, R5
 111000100 //getBit I R4
@@ -209,7 +209,7 @@
 101101110 //Add R R6
 010000110 //Load_func 8, R6
 110000111 //Div I R7
-000110000 //Load_func L3
+000000011 //Load_func L3
 111100000 //SetBranch
 000000111 //Load_func 0, R7
 110100000 //BEQ I
@@ -229,7 +229,7 @@
 100001000 //Mov R
 000000000 //Load_func 0
 100000100 //Mov I R4
-001100000 //Load_func L6
+000000110 //Load_func L6
 111100000 //setBranch
 000000100 //Load_func 0, R4
 110100000 //BEQ I
@@ -437,7 +437,7 @@
 100001000 //Mov R
 000011011 //Load_func R1, R11
 100001000 //Mov R
-001000000 //Load_func L4
+000000100 //Load_func L4
 111100000 //setBranch
 000000110 //Load_func 0, R6
 110100000 //BEQ I
@@ -445,7 +445,7 @@
 100000100 //Mov I R4
 001110100 //Load_func 7, R4
 111010000 //setBit I R0
-001010000 //Load_func L5
+000000101 //Load_func L5
 111100000 //setBranch
 000000000 //Load_func 0
 100000110 //Mov I R6
@@ -471,7 +471,7 @@
 101100010 //Add I R2
 000100011 //Load_func 2, R3
 101100011 //Add I R3
-000010000 //Load_func L1
+000000001 //Load_func L1
 111100000 //setBranch
 001011111 //Load_func 95
 100000111 //Mov I R7

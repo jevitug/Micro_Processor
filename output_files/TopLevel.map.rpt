@@ -1,5 +1,5 @@
 Analysis & Synthesis report for TopLevel
-Wed Dec 04 21:23:40 2019
+Thu Dec 05 19:36:56 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -56,7 +56,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Wed Dec 04 21:23:39 2019       ;
+; Analysis & Synthesis Status     ; Successful - Thu Dec 05 19:36:56 2019       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; TopLevel                                    ;
 ; Top-level Entity Name           ; TopLevel                                    ;
@@ -182,39 +182,39 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                             ;
-+----------------------------------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path                         ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                 ; Library ;
-+----------------------------------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------+---------+
-; TopLevel.sv                                              ; yes             ; User SystemVerilog HDL File  ; C:/Users/orrne/Desktop/proc_1/TopLevel.sv                                    ;         ;
-; ALU.sv                                                   ; yes             ; User SystemVerilog HDL File  ; C:/Users/orrne/Desktop/proc_1/ALU.sv                                         ;         ;
-; Ctrl.sv                                                  ; yes             ; User SystemVerilog HDL File  ; C:/Users/orrne/Desktop/proc_1/Ctrl.sv                                        ;         ;
-; data_mem.sv                                              ; yes             ; User SystemVerilog HDL File  ; C:/Users/orrne/Desktop/proc_1/data_mem.sv                                    ;         ;
-; InstROM.sv                                               ; yes             ; User SystemVerilog HDL File  ; C:/Users/orrne/Desktop/proc_1/InstROM.sv                                     ;         ;
-; definitions.sv                                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/orrne/Desktop/proc_1/definitions.sv                                 ;         ;
-; LUT.sv                                                   ; yes             ; User SystemVerilog HDL File  ; C:/Users/orrne/Desktop/proc_1/LUT.sv                                         ;         ;
-; PC.sv                                                    ; yes             ; User SystemVerilog HDL File  ; C:/Users/orrne/Desktop/proc_1/PC.sv                                          ;         ;
-; reg_file.sv                                              ; yes             ; User SystemVerilog HDL File  ; C:/Users/orrne/Desktop/proc_1/reg_file.sv                                    ;         ;
-; /users/orrne/documents/ucsd/year 4/cse 141l/program1_2.c ; yes             ; Auto-Found File              ; /users/orrne/documents/ucsd/year 4/cse 141l/program1_2.c                     ;         ;
-; altsyncram.tdf                                           ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf        ;         ;
-; stratix_ram_block.inc                                    ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc ;         ;
-; lpm_mux.inc                                              ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.inc           ;         ;
-; lpm_decode.inc                                           ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_decode.inc        ;         ;
-; aglobal181.inc                                           ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/aglobal181.inc        ;         ;
-; a_rdenreg.inc                                            ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/a_rdenreg.inc         ;         ;
-; altrom.inc                                               ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altrom.inc            ;         ;
-; altram.inc                                               ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altram.inc            ;         ;
-; altdpram.inc                                             ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altdpram.inc          ;         ;
-; db/altsyncram_dfo1.tdf                                   ; yes             ; Auto-Generated Megafunction  ; C:/Users/orrne/Desktop/proc_1/db/altsyncram_dfo1.tdf                         ;         ;
-; lpm_divide.tdf                                           ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_divide.tdf        ;         ;
-; abs_divider.inc                                          ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/abs_divider.inc       ;         ;
-; sign_div_unsign.inc                                      ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/sign_div_unsign.inc   ;         ;
-; db/lpm_divide_9am.tdf                                    ; yes             ; Auto-Generated Megafunction  ; C:/Users/orrne/Desktop/proc_1/db/lpm_divide_9am.tdf                          ;         ;
-; db/sign_div_unsign_fkh.tdf                               ; yes             ; Auto-Generated Megafunction  ; C:/Users/orrne/Desktop/proc_1/db/sign_div_unsign_fkh.tdf                     ;         ;
-; db/alt_u_div_4te.tdf                                     ; yes             ; Auto-Generated Megafunction  ; C:/Users/orrne/Desktop/proc_1/db/alt_u_div_4te.tdf                           ;         ;
-; db/lpm_divide_c2m.tdf                                    ; yes             ; Auto-Generated Megafunction  ; C:/Users/orrne/Desktop/proc_1/db/lpm_divide_c2m.tdf                          ;         ;
-+----------------------------------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                     ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                 ; Library ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------+---------+
+; TopLevel.sv                      ; yes             ; User SystemVerilog HDL File  ; C:/Users/orrne/Desktop/proc_1/TopLevel.sv                                    ;         ;
+; ALU.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/orrne/Desktop/proc_1/ALU.sv                                         ;         ;
+; Ctrl.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/orrne/Desktop/proc_1/Ctrl.sv                                        ;         ;
+; data_mem.sv                      ; yes             ; User SystemVerilog HDL File  ; C:/Users/orrne/Desktop/proc_1/data_mem.sv                                    ;         ;
+; InstROM.sv                       ; yes             ; User SystemVerilog HDL File  ; C:/Users/orrne/Desktop/proc_1/InstROM.sv                                     ;         ;
+; definitions.sv                   ; yes             ; User SystemVerilog HDL File  ; C:/Users/orrne/Desktop/proc_1/definitions.sv                                 ;         ;
+; LUT.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/Users/orrne/Desktop/proc_1/LUT.sv                                         ;         ;
+; PC.sv                            ; yes             ; User SystemVerilog HDL File  ; C:/Users/orrne/Desktop/proc_1/PC.sv                                          ;         ;
+; reg_file.sv                      ; yes             ; User SystemVerilog HDL File  ; C:/Users/orrne/Desktop/proc_1/reg_file.sv                                    ;         ;
+; programs/program1_2.c            ; yes             ; Auto-Found File              ; C:/Users/orrne/Desktop/proc_1/programs/program1_2.c                          ;         ;
+; altsyncram.tdf                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf        ;         ;
+; stratix_ram_block.inc            ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc ;         ;
+; lpm_mux.inc                      ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.inc           ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_decode.inc        ;         ;
+; aglobal181.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/aglobal181.inc        ;         ;
+; a_rdenreg.inc                    ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/a_rdenreg.inc         ;         ;
+; altrom.inc                       ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altrom.inc            ;         ;
+; altram.inc                       ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altram.inc            ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altdpram.inc          ;         ;
+; db/altsyncram_dfo1.tdf           ; yes             ; Auto-Generated Megafunction  ; C:/Users/orrne/Desktop/proc_1/db/altsyncram_dfo1.tdf                         ;         ;
+; lpm_divide.tdf                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_divide.tdf        ;         ;
+; abs_divider.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/abs_divider.inc       ;         ;
+; sign_div_unsign.inc              ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/sign_div_unsign.inc   ;         ;
+; db/lpm_divide_9am.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/orrne/Desktop/proc_1/db/lpm_divide_9am.tdf                          ;         ;
+; db/sign_div_unsign_fkh.tdf       ; yes             ; Auto-Generated Megafunction  ; C:/Users/orrne/Desktop/proc_1/db/sign_div_unsign_fkh.tdf                     ;         ;
+; db/alt_u_div_4te.tdf             ; yes             ; Auto-Generated Megafunction  ; C:/Users/orrne/Desktop/proc_1/db/alt_u_div_4te.tdf                           ;         ;
+; db/lpm_divide_c2m.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/orrne/Desktop/proc_1/db/lpm_divide_c2m.tdf                          ;         ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -222,14 +222,14 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 1733      ;
+; Estimate of Logic utilization (ALMs needed) ; 1732      ;
 ;                                             ;           ;
-; Combinational ALUT usage for logic          ; 1595      ;
-;     -- 7 input functions                    ; 17        ;
-;     -- 6 input functions                    ; 913       ;
-;     -- 5 input functions                    ; 185       ;
-;     -- 4 input functions                    ; 360       ;
-;     -- <=3 input functions                  ; 120       ;
+; Combinational ALUT usage for logic          ; 1597      ;
+;     -- 7 input functions                    ; 10        ;
+;     -- 6 input functions                    ; 937       ;
+;     -- 5 input functions                    ; 176       ;
+;     -- 4 input functions                    ; 356       ;
+;     -- <=3 input functions                  ; 118       ;
 ;                                             ;           ;
 ; Dedicated logic registers                   ; 2206      ;
 ;                                             ;           ;
@@ -241,8 +241,8 @@ refer to the applicable agreement for further details.
 ;                                             ;           ;
 ; Maximum fan-out node                        ; CLK~input ;
 ; Maximum fan-out                             ; 2214      ;
-; Total fan-out                               ; 15002     ;
-; Average fan-out                             ; 3.93      ;
+; Total fan-out                               ; 15037     ;
+; Average fan-out                             ; 3.94      ;
 +---------------------------------------------+-----------+
 
 
@@ -251,22 +251,22 @@ refer to the applicable agreement for further details.
 +-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
 ; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                ; Entity Name         ; Library Name ;
 +-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
-; |TopLevel                                 ; 1595 (70)           ; 2206 (0)                  ; 128               ; 1          ; 3    ; 0            ; |TopLevel                                                                                                          ; TopLevel            ; work         ;
-;    |ALU:ALU1|                             ; 275 (116)           ; 0 (0)                     ; 0                 ; 1          ; 0    ; 0            ; |TopLevel|ALU:ALU1                                                                                                 ; ALU                 ; work         ;
-;       |lpm_divide:Div0|                   ; 80 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|ALU:ALU1|lpm_divide:Div0                                                                                 ; lpm_divide          ; work         ;
-;          |lpm_divide_9am:auto_generated|  ; 80 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|ALU:ALU1|lpm_divide:Div0|lpm_divide_9am:auto_generated                                                   ; lpm_divide_9am      ; work         ;
-;             |sign_div_unsign_fkh:divider| ; 80 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|ALU:ALU1|lpm_divide:Div0|lpm_divide_9am:auto_generated|sign_div_unsign_fkh:divider                       ; sign_div_unsign_fkh ; work         ;
-;                |alt_u_div_4te:divider|    ; 80 (80)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|ALU:ALU1|lpm_divide:Div0|lpm_divide_9am:auto_generated|sign_div_unsign_fkh:divider|alt_u_div_4te:divider ; alt_u_div_4te       ; work         ;
-;       |lpm_divide:Mod0|                   ; 79 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|ALU:ALU1|lpm_divide:Mod0                                                                                 ; lpm_divide          ; work         ;
-;          |lpm_divide_c2m:auto_generated|  ; 79 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|ALU:ALU1|lpm_divide:Mod0|lpm_divide_c2m:auto_generated                                                   ; lpm_divide_c2m      ; work         ;
-;             |sign_div_unsign_fkh:divider| ; 79 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|ALU:ALU1|lpm_divide:Mod0|lpm_divide_c2m:auto_generated|sign_div_unsign_fkh:divider                       ; sign_div_unsign_fkh ; work         ;
-;                |alt_u_div_4te:divider|    ; 79 (79)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|ALU:ALU1|lpm_divide:Mod0|lpm_divide_c2m:auto_generated|sign_div_unsign_fkh:divider|alt_u_div_4te:divider ; alt_u_div_4te       ; work         ;
+; |TopLevel                                 ; 1597 (66)           ; 2206 (0)                  ; 128               ; 1          ; 3    ; 0            ; |TopLevel                                                                                                          ; TopLevel            ; work         ;
+;    |ALU:ALU1|                             ; 273 (114)           ; 0 (0)                     ; 0                 ; 1          ; 0    ; 0            ; |TopLevel|ALU:ALU1                                                                                                 ; ALU                 ; work         ;
+;       |lpm_divide:Div0|                   ; 82 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|ALU:ALU1|lpm_divide:Div0                                                                                 ; lpm_divide          ; work         ;
+;          |lpm_divide_9am:auto_generated|  ; 82 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|ALU:ALU1|lpm_divide:Div0|lpm_divide_9am:auto_generated                                                   ; lpm_divide_9am      ; work         ;
+;             |sign_div_unsign_fkh:divider| ; 82 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|ALU:ALU1|lpm_divide:Div0|lpm_divide_9am:auto_generated|sign_div_unsign_fkh:divider                       ; sign_div_unsign_fkh ; work         ;
+;                |alt_u_div_4te:divider|    ; 82 (82)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|ALU:ALU1|lpm_divide:Div0|lpm_divide_9am:auto_generated|sign_div_unsign_fkh:divider|alt_u_div_4te:divider ; alt_u_div_4te       ; work         ;
+;       |lpm_divide:Mod0|                   ; 77 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|ALU:ALU1|lpm_divide:Mod0                                                                                 ; lpm_divide          ; work         ;
+;          |lpm_divide_c2m:auto_generated|  ; 77 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|ALU:ALU1|lpm_divide:Mod0|lpm_divide_c2m:auto_generated                                                   ; lpm_divide_c2m      ; work         ;
+;             |sign_div_unsign_fkh:divider| ; 77 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|ALU:ALU1|lpm_divide:Mod0|lpm_divide_c2m:auto_generated|sign_div_unsign_fkh:divider                       ; sign_div_unsign_fkh ; work         ;
+;                |alt_u_div_4te:divider|    ; 77 (77)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|ALU:ALU1|lpm_divide:Mod0|lpm_divide_c2m:auto_generated|sign_div_unsign_fkh:divider|alt_u_div_4te:divider ; alt_u_div_4te       ; work         ;
 ;    |Ctrl:Ctrl1|                           ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|Ctrl:Ctrl1                                                                                               ; Ctrl                ; work         ;
-;    |InstROM:instr_ROM1|                   ; 139 (139)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|InstROM:instr_ROM1                                                                                       ; InstROM             ; work         ;
+;    |InstROM:instr_ROM1|                   ; 132 (132)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|InstROM:instr_ROM1                                                                                       ; InstROM             ; work         ;
 ;    |LUT:LUT1|                             ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|LUT:LUT1                                                                                                 ; LUT                 ; work         ;
-;    |PC:PC1|                               ; 40 (40)             ; 13 (13)                   ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|PC:PC1                                                                                                   ; PC                  ; work         ;
+;    |PC:PC1|                               ; 38 (38)             ; 13 (13)                   ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|PC:PC1                                                                                                   ; PC                  ; work         ;
 ;    |data_mem:data_mem1|                   ; 968 (968)           ; 2048 (2048)               ; 0                 ; 0          ; 0    ; 0            ; |TopLevel|data_mem:data_mem1                                                                                       ; data_mem            ; work         ;
-;    |reg_file:reg_file1|                   ; 95 (95)             ; 145 (145)                 ; 128               ; 0          ; 0    ; 0            ; |TopLevel|reg_file:reg_file1                                                                                       ; reg_file            ; work         ;
+;    |reg_file:reg_file1|                   ; 112 (112)           ; 145 (145)                 ; 128               ; 0          ; 0    ; 0            ; |TopLevel|reg_file:reg_file1                                                                                       ; reg_file            ; work         ;
 ;       |altsyncram:registers_rtl_0|        ; 0 (0)               ; 0 (0)                     ; 128               ; 0          ; 0    ; 0            ; |TopLevel|reg_file:reg_file1|altsyncram:registers_rtl_0                                                            ; altsyncram          ; work         ;
 ;          |altsyncram_dfo1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 128               ; 0          ; 0    ; 0            ; |TopLevel|reg_file:reg_file1|altsyncram:registers_rtl_0|altsyncram_dfo1:auto_generated                             ; altsyncram_dfo1     ; work         ;
 +-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
@@ -304,7 +304,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 2185  ;
+; Number of registers using Clock Enable       ; 2188  ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -339,7 +339,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output         ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------+
-; 5:1                ; 8 bits    ; 24 LEs        ; 8 LEs                ; 16 LEs                 ; Yes        ; |TopLevel|PC:PC1|PC[6]             ;
+; 5:1                ; 10 bits   ; 30 LEs        ; 10 LEs               ; 20 LEs                 ; Yes        ; |TopLevel|PC:PC1|PC[6]             ;
 ; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |TopLevel|ALU:ALU1|ShiftLeft0      ;
 ; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |TopLevel|ALU:ALU1|Mux0            ;
 ; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |TopLevel|ALU:ALU1|Mux0            ;
@@ -522,7 +522,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Port                       ; Type   ; Severity ; Details                                                                             ;
 +----------------------------+--------+----------+-------------------------------------------------------------------------------------+
 ; raddrC[3]                  ; Input  ; Info     ; Stuck at GND                                                                        ;
-; data_outBranchTarget[3..0] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; data_outBranchTarget[7..5] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +----------------------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
@@ -532,23 +532,22 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; arriav_ff             ; 2206                        ;
-;     ENA               ; 2176                        ;
-;     ENA SCLR          ; 9                           ;
-;     SCLR              ; 1                           ;
-;     plain             ; 20                          ;
-; arriav_lcell_comb     ; 1595                        ;
+;     ENA               ; 2178                        ;
+;     ENA SCLR          ; 10                          ;
+;     plain             ; 18                          ;
+; arriav_lcell_comb     ; 1597                        ;
 ;     arith             ; 110                         ;
 ;         0 data inputs ; 24                          ;
 ;         1 data inputs ; 12                          ;
 ;         5 data inputs ; 74                          ;
-;     extend            ; 17                          ;
-;         7 data inputs ; 17                          ;
-;     normal            ; 1458                        ;
-;         2 data inputs ; 29                          ;
-;         3 data inputs ; 47                          ;
-;         4 data inputs ; 358                         ;
-;         5 data inputs ; 111                         ;
-;         6 data inputs ; 913                         ;
+;     extend            ; 10                          ;
+;         7 data inputs ; 10                          ;
+;     normal            ; 1467                        ;
+;         2 data inputs ; 25                          ;
+;         3 data inputs ; 49                          ;
+;         4 data inputs ; 354                         ;
+;         5 data inputs ; 102                         ;
+;         6 data inputs ; 937                         ;
 ;     shared            ; 10                          ;
 ;         0 data inputs ; 4                           ;
 ;         2 data inputs ; 4                           ;
@@ -557,8 +556,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; boundary_port         ; 3                           ;
 ; stratixv_ram_block    ; 8                           ;
 ;                       ;                             ;
-; Max LUT depth         ; 25.50                       ;
-; Average LUT depth     ; 10.23                       ;
+; Max LUT depth         ; 27.40                       ;
+; Average LUT depth     ; 10.46                       ;
 +-----------------------+-----------------------------+
 
 
@@ -567,7 +566,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:25     ;
+; Top            ; 00:00:10     ;
 +----------------+--------------+
 
 
@@ -577,7 +576,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Wed Dec 04 21:22:51 2019
+    Info: Processing started: Thu Dec 05 19:36:34 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off TopLevel -c TopLevel
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -606,21 +605,13 @@ Info (12021): Found 1 design units, including 1 entities, in source file reg_fil
 Info (12127): Elaborating entity "TopLevel" for the top level hierarchy
 Warning (10230): Verilog HDL assignment warning at TopLevel.sv(61): truncated value with size 32 to match size of target (1) File: C:/Users/orrne/Desktop/proc_1/TopLevel.sv Line: 61
 Info (12128): Elaborating entity "LUT" for hierarchy "LUT:LUT1" File: C:/Users/orrne/Desktop/proc_1/TopLevel.sv Line: 36
+Warning (10036): Verilog HDL or VHDL warning at LUT.sv(9): object "lines_in_p1p2" assigned a value but never read File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 9
 Warning (10230): Verilog HDL assignment warning at LUT.sv(14): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 14
 Warning (10230): Verilog HDL assignment warning at LUT.sv(15): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 15
 Warning (10230): Verilog HDL assignment warning at LUT.sv(16): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 16
 Warning (10230): Verilog HDL assignment warning at LUT.sv(17): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 17
 Warning (10230): Verilog HDL assignment warning at LUT.sv(18): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 18
 Warning (10230): Verilog HDL assignment warning at LUT.sv(19): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 19
-Warning (10230): Verilog HDL assignment warning at LUT.sv(20): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 20
-Warning (10230): Verilog HDL assignment warning at LUT.sv(21): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 21
-Warning (10230): Verilog HDL assignment warning at LUT.sv(22): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 22
-Warning (10230): Verilog HDL assignment warning at LUT.sv(23): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 23
-Warning (10230): Verilog HDL assignment warning at LUT.sv(24): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 24
-Warning (10230): Verilog HDL assignment warning at LUT.sv(25): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 25
-Warning (10230): Verilog HDL assignment warning at LUT.sv(26): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 26
-Warning (10230): Verilog HDL assignment warning at LUT.sv(27): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 27
-Warning (10230): Verilog HDL assignment warning at LUT.sv(28): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/LUT.sv Line: 28
 Info (12128): Elaborating entity "PC" for hierarchy "PC:PC1" File: C:/Users/orrne/Desktop/proc_1/TopLevel.sv Line: 45
 Warning (10230): Verilog HDL assignment warning at PC.sv(25): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/PC.sv Line: 25
 Warning (10230): Verilog HDL assignment warning at PC.sv(32): truncated value with size 32 to match size of target (12) File: C:/Users/orrne/Desktop/proc_1/PC.sv Line: 32
@@ -709,17 +700,17 @@ Info (286030): Timing-Driven Synthesis is running
 Info (144001): Generated suppressed messages file C:/Users/orrne/Desktop/proc_1/output_files/TopLevel.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 3796 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 3798 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 1 output pins
-    Info (21061): Implemented 3784 logic cells
+    Info (21061): Implemented 3786 logic cells
     Info (21064): Implemented 8 RAM segments
     Info (21062): Implemented 1 DSP elements
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 36 warnings
-    Info: Peak virtual memory: 4894 megabytes
-    Info: Processing ended: Wed Dec 04 21:23:40 2019
-    Info: Elapsed time: 00:00:49
-    Info: Total CPU time (on all processors): 00:01:15
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 28 warnings
+    Info: Peak virtual memory: 4879 megabytes
+    Info: Processing ended: Thu Dec 05 19:36:56 2019
+    Info: Elapsed time: 00:00:22
+    Info: Total CPU time (on all processors): 00:00:35
 
 
 +------------------------------------------+

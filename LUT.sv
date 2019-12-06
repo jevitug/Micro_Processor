@@ -2,7 +2,7 @@
 // possible lookup table for PC target
 // leverage a few-bit pointer to a wider number
 module LUT(
-    input[3:0] addr,
+    input[4:0] addr,
     output logic[11:0] Target
     );
 	 int lines_in_p1 = 150;
@@ -10,22 +10,24 @@ module LUT(
     always_comb
 	
     case(addr)		   //-16'd30;
-        4'b0000:   	Target = 4; 					//L0
-        4'b0001:	 	Target = 4 +lines_in_p1;		//L1
-        4'b0010:	 	Target = 201 +lines_in_p1;					//L2
-        4'b0011:	 	Target = 231 +lines_in_p1;					//L3
-        4'b0100:   	Target = 446 +lines_in_p1; 				//L4
-        4'b0101:	 	Target = 450 +lines_in_p1;					//L5
-        4'b0110:	 	Target = 243 +lines_in_p1;					//L6
-        4'b0111:	 	Target = 239 +lines_in_p1;					//L7
-        4'b1000:   	Target = 7 +lines_in_p1p2; 				//L8
-        4'b1001:	 	Target = 20 +lines_in_p1p2;				//L9
-        4'b1010:	 	Target = 240 +lines_in_p1p2;				//L10
-        4'b1011:	 	Target = 240 +lines_in_p1p2;				//L11
-        4'b1100:   	Target = 7 +lines_in_p1p2;					//L12
-        4'b1101:	 	Target = 20 +lines_in_p1p2;				//L13
-        4'b1110:	 	Target = 240 +lines_in_p1p2;				//L14
-        4'b1111:	 	Target = 240 +lines_in_p1p2;				//L15
+        5'b00000:   	Target = 4; 									//L0
+        5'b00001:	 	Target = 4 +lines_in_p1;					//L1
+        5'b00010:	 	Target = 201 +lines_in_p1;					//L2
+        5'b00011:	 	Target = 231 +lines_in_p1;					//L3
+        5'b00100:   	Target = 446 +lines_in_p1; 				//L4
+        5'b00101:	 	Target = 450 +lines_in_p1;					//L5
+        5'b00110:	 	Target = 243 +lines_in_p1;					//L6
+        5'b00111:	 	Target = 0;					//L7
+        5'b01000:   	Target = 0; 				//L8
+        5'b01001:	 	Target = 0;				//L9
+        5'b01010:	 	Target = 0;				//L10
+        5'b01011:	 	Target = 0;				//L11
+        5'b01100:   	Target = 0;					//L12
+        5'b01101:	 	Target = 0;				//L13
+        5'b01110:	 	Target = 0;				//L14
+        5'b01111:	 	Target = 0;				//L15
+		  5'b10000:	 	Target = 0;				//L16
+		  5'b10001:	 	Target = 0;				//L17
         default: 	Target = 0;							//Default
     endcase
 

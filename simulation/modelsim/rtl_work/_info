@@ -27,7 +27,7 @@ Z5 8C:/Users/orrne/Desktop/proc_1/ALU.sv
 Z6 FC:/Users/orrne/Desktop/proc_1/ALU.sv
 L0 9
 Z7 OV;L;10.5b;63
-Z8 !s108 1575523422.000000
+Z8 !s108 1575603462.000000
 Z9 !s107 C:/Users/orrne/Desktop/proc_1/ALU.sv|
 Z10 !s90 -reportprogress|300|-work|work|C:/Users/orrne/Desktop/proc_1/ALU.sv|
 !i113 1
@@ -112,7 +112,7 @@ R12
 n@ctrl_sv_unit
 vdata_mem
 R1
-Z18 !s110 1575523422
+Z18 !s110 1575603463
 !i10b 1
 !s100 Q@RHS8XTRS65XSkUWWI@U0
 IVL5aLlJWc0N109CIkCm<K3
@@ -128,7 +128,7 @@ R7
 r1
 !s85 0
 31
-R8
+Z19 !s108 1575603463.000000
 !s107 C:/Users/orrne/Desktop/proc_1/data_mem.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/orrne/Desktop/proc_1/data_mem.sv|
 !i113 1
@@ -151,7 +151,7 @@ R7
 r1
 !s85 0
 31
-R8
+R19
 !s107 C:/Users/orrne/Desktop/proc_1/definitions.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/orrne/Desktop/proc_1/definitions.sv|
 !i113 1
@@ -161,13 +161,13 @@ vInstROM
 R1
 R18
 !i10b 1
-!s100 JlDG1=XWV^TKZ?We_3O4F2
-IFjXP2YegWdh`jCNHgXf1g0
+!s100 ]ZCbAVz?ITI4Jahii;Xl=0
+IHidGJM?Tb>UdZ^gAMMi2[1
 R3
 !s105 InstROM_sv_unit
 S1
 R0
-w1573432378
+w1575603251
 8C:/Users/orrne/Desktop/proc_1/InstROM.sv
 FC:/Users/orrne/Desktop/proc_1/InstROM.sv
 L0 11
@@ -175,7 +175,7 @@ R7
 r1
 !s85 0
 31
-R8
+R19
 !s107 C:/Users/orrne/Desktop/proc_1/InstROM.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/orrne/Desktop/proc_1/InstROM.sv|
 !i113 1
@@ -184,15 +184,15 @@ R12
 n@inst@r@o@m
 vLUT
 R1
-Z19 !s110 1575523423
+R18
 !i10b 1
-!s100 e70RAmDaaK@boJf4XS@T;2
-I4<jjThH]HGkf15mJZWFgd3
+!s100 hL`Wd3NZgO>;Cg4YVYeY41
+IXD4kO[R1COL?kc`6O`Q?h2
 R3
 !s105 LUT_sv_unit
 S1
 R0
-w1573439265
+w1575603161
 8C:/Users/orrne/Desktop/proc_1/LUT.sv
 FC:/Users/orrne/Desktop/proc_1/LUT.sv
 L0 4
@@ -200,7 +200,7 @@ R7
 r1
 !s85 0
 31
-Z20 !s108 1575523423.000000
+R19
 !s107 C:/Users/orrne/Desktop/proc_1/LUT.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/orrne/Desktop/proc_1/LUT.sv|
 !i113 1
@@ -209,7 +209,7 @@ R12
 n@l@u@t
 vPC
 R1
-R19
+R18
 !i10b 1
 !s100 c:@lQzFC`DDLT4bA53LOU1
 IgF`h3EI<@:2KMF>Ym8e^G3
@@ -225,7 +225,7 @@ R7
 r1
 !s85 0
 31
-R20
+R19
 !s107 C:/Users/orrne/Desktop/proc_1/PC.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/orrne/Desktop/proc_1/PC.sv|
 !i113 1
@@ -234,7 +234,7 @@ R12
 n@p@c
 vprog123_tb
 R1
-R19
+R18
 !i10b 1
 !s100 `e<DHE865A9YFj7TYS^9Z1
 I>nzgFC?KY_5W2H6VjhC?]1
@@ -250,7 +250,7 @@ R7
 r1
 !s85 0
 31
-R20
+R19
 !s107 C:/Users/orrne/Desktop/proc_1/prog123_tb.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/orrne/Desktop/proc_1/prog123_tb.sv|
 !i113 1
@@ -258,7 +258,7 @@ R11
 R12
 vreg_file
 R1
-R19
+R18
 !i10b 1
 !s100 kC13gbKj>NWL56]cVc=2K1
 IkbGO>Io7[fHGYz42a>S<M0
@@ -274,7 +274,7 @@ R7
 r1
 !s85 0
 31
-R20
+R19
 !s107 C:/Users/orrne/Desktop/proc_1/reg_file.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/orrne/Desktop/proc_1/reg_file.sv|
 !i113 1
@@ -282,15 +282,15 @@ R11
 R12
 vTopLevel
 R1
-R19
+R18
 !i10b 1
-!s100 ZmI?e_]G7mO@DZ`0D4cZl2
-I88A8nU_XfJo;9_P6TeofV0
+!s100 85jzj8>SJV1m2UQ=Z]ZPX0
+IC65IW9J?IbIl6YN=1`WaE1
 R3
 !s105 TopLevel_sv_unit
 S1
 R0
-w1573194263
+w1575602942
 8C:/Users/orrne/Desktop/proc_1/TopLevel.sv
 FC:/Users/orrne/Desktop/proc_1/TopLevel.sv
 L0 6
@@ -298,7 +298,7 @@ R7
 r1
 !s85 0
 31
-R20
+R19
 !s107 C:/Users/orrne/Desktop/proc_1/TopLevel.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/orrne/Desktop/proc_1/TopLevel.sv|
 !i113 1
@@ -307,7 +307,7 @@ R12
 n@top@level
 vTopLevel_tb
 R1
-!s110 1575523424
+R18
 !i10b 1
 !s100 ;TG_lgme4A0Ib=1?J:RO90
 I6KMBgKmSI]TTgZ;>[78ie2
@@ -323,7 +323,7 @@ R7
 r1
 !s85 0
 31
-R20
+R19
 !s107 C:/Users/orrne/Desktop/proc_1/TopLevel_tb.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/orrne/Desktop/proc_1/TopLevel_tb.sv|
 !i113 1
