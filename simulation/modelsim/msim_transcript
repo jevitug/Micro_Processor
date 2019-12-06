@@ -590,3 +590,5 @@ run -all
 # ** Note: $stop    : C:/Users/orrne/Desktop/proc_1/prog123_tb.sv(136)
 #    Time: 100975 ns  Iteration: 0  Instance: /prog123_tb
 # Break in Module prog123_tb at C:/Users/orrne/Desktop/proc_1/prog123_tb.sv line 136
+# End time: 19:42:32 on Dec 05,2019, Elapsed time: 0:04:46
+# Errors: 0, Warnings: 0
